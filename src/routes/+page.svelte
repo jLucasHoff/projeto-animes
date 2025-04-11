@@ -1,2 +1,15 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://svelte.dev/docs/kit">svelte.dev/docs/kit</a> to read the documentation</p>
+<main>
+
+</main>
+
+<style>
+@font-face {
+    font-family: "PA Lexend";
+    src: url("/Lexend.ttf");
+}
+
+@font-face {
+    font-family: "PA NicoMoji";
+    src: url("/NicoMoji-Regular.ttf");
+}
+</style>
