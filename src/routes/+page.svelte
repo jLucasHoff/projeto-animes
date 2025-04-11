@@ -1,5 +1,10 @@
-<main>
+<script>
+    import Games from "$lib/games.svelte";
 
+</script>
+<main>
+    <h1>selecione um anime</h1>
+    <Games />
 </main>
 
 <style>
@@ -16,6 +21,7 @@
 :global(:root) {
     font-family: "PA Lexend";
     font-weight: 200;
+    color: white;
 }
 
 :global(*) {
@@ -41,6 +47,7 @@
         width: 100vw;
         height: 100vh;
         backdrop-filter: blur(50px);
+        z-index: -1;
     }
 }
 
@@ -50,5 +57,13 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
+    gap: 50px;
+    box-sizing: border-box;
+    padding: 5vh 0;
+}
+
+:is(h1, h2, h3, h4, h5, h6) {
+    font-family: "PA NicoMoji";
+    font-weight: 100;
 }
 </style>

@@ -11,6 +11,20 @@ interface IAnime {
 }
 //["Solo Leveling", "Kaiju Nº 8", "Naruto", "Dragon Ball", "Demon Slayer", "Bleach", "Boku no Hero", "Jujutsu Kaisen", "Shingeki no Kyojin", "Fire Force", "One Punch Man", "Hunter x Hunter", "Fullmetal Alchemist", "Souso no Frieren", "One Piece"]
 export const animes: IAnime[] = [
+    //ghost
+    {"name": "Solo Leveling", code: "solo" },
+    //cards
+    {"name": "Solo Leveling", code: "solo" },
+    {"name": "Kaiju Nº8", code: "kaiju" },
+    {"name": "Demon Slayer", code: "kimetsu" },
+    {"name": "Naruto", code: "naruto" },
+    {"name": "Dragon Ball", code: "db" },
+    {"name": "Solo Leveling", code: "solo" },
+    {"name": "Kaiju Nº8", code: "kaiju" },
+    {"name": "Demon Slayer", code: "kimetsu" },
+    {"name": "Naruto", code: "naruto" },
+    {"name": "Dragon Ball", code: "db" },
+    //ghost
     {"name": "Solo Leveling", code: "solo" }
 ]
 
