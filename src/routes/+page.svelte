@@ -57,9 +57,9 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 50px;
     box-sizing: border-box;
     padding: 5vh 0;
+    overflow: hidden;
 }
 
 :is(h1, h2, h3, h4, h5, h6) {
